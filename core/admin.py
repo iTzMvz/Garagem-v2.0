@@ -8,6 +8,8 @@ from django.utils.translation import gettext_lazy as _
 
 from core import models
 
+from core.models import Acessorio
+
 
 class UserAdmin(BaseUserAdmin):
     """Define the admin pages for users."""
@@ -50,3 +52,4 @@ class UserAdmin(BaseUserAdmin):
 
 
 admin.site.register(models.User, UserAdmin)
+admin.site.register(models.Acessorio)
