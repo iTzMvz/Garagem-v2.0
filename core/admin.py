@@ -8,7 +8,7 @@ from django.utils.translation import gettext_lazy as _
 
 from core import models
 
-from core.models import Acessorio, Categoria, Cor, Marca, Modelo
+from core.models import Acessorio, Categoria, Cor, Marca, Modelo, Veiculo
 
 
 class UserAdmin(BaseUserAdmin):
@@ -57,3 +57,4 @@ admin.site.register(models.Categoria)
 admin.site.register(models.Cor)
 admin.site.register(models.Marca)
 admin.site.register(models.Modelo)
+admin.site.register(models.Veiculo)
