@@ -1,6 +1,6 @@
 from rest_framework.serializers import ModelSerializer
 
-from .modelo import Modelo
+from core.models import Modelo
 
 
 class ModeloSerializer(ModelSerializer):

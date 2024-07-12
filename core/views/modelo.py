@@ -1,7 +1,7 @@
 from rest_framework.viewsets import ModelViewSet
 
-from .modelo import Modelo
-from .modelo import ModeloSerializer
+from core.models import Modelo
+from core.serializers import ModeloSerializer
 
 
 class ModeloViewSet(ModelViewSet):
